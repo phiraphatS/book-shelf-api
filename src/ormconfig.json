@@ -1,0 +1,13 @@
+[
+  {
+    "name": "default",
+    "type": "postgres",
+    "host": "hkg1.clusters.zeabur.com",
+    "port": 31655,
+    "username": "root",
+    "password": "f7oQC6bX4wRcS9imlnhp583M20GOLe1W",
+    "database": "",
+    "synchronize": false,
+    "entities": ["entities/*.js"]
+  }
+]
