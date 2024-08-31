@@ -7,7 +7,7 @@ import configurations from './configurations';
         // Import the ConfigModule
         ConfigModule.forRoot({
             load: [configurations],
-            envFilePath: ['.env.development', '.env.uat', '.env.production'],
+            envFilePath: ['.env.local', '.env.uat', '.env.production'],
             isGlobal: true,
         })
     ],
